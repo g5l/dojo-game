@@ -1,10 +1,10 @@
 {
   "name": "dojo-game",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Jogo do Dojo",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon node index.js",
+    "start": "nodemon node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,11 +18,14 @@
   },
   "homepage": "https://github.com/g5l/dojo-game#readme",
   "dependencies": {
+    "aws-serverless-express": "^3.3.6",
     "express": "^4.17.1",
+    "firebase": "^6.3.0",
     "mysql2": "^1.6.5",
     "sequelize": "^5.8.9"
   },
   "devDependencies": {
+    "claudia": "^5.5.0",
     "nodemon": "^1.19.1",
     "sequelize-cli": "^5.5.0"
   }
